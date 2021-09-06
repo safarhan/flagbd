@@ -1,0 +1,76 @@
+*{
+	padding: opx;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: monospace;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 800px;
+	height: 400px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 26%;
+	right: 40%;
+}
+.social-media{
+	width: 100%;
+	margin: 100px 0px;
+	padding: 80px 0px;
+	background: gray;
+}
+.social-icons{
+	text-align: center;
+	width: 100%;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+
+}
+.social-icons li a .fa{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 30px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	transition: 1s;
+}
+.social-icons li a .fa-facebook{
+	background: #0A7CE4;
+	color: #fff;
+}
+.social-icons li a .fa-youtube{
+	background: #FD0013;
+	color: #fff;
+}
+.social-icons li a .fa-twitter{
+	background: #5EAADA;
+	color: #fff;
+}
+.social-icons li a .fa-whatsapp{
+	background: #58EF78;
+	color: #fff;
+}
+.social-icons li a.fa:hover{
+	background: green
+	color: yellow;
+}
+  
